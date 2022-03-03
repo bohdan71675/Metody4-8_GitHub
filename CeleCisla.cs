@@ -29,7 +29,18 @@ namespace Metody4_8_GitHub
 
             return mocnina;
         }
+        public static int faktorial(int n)
+        {
+            if (n < 0) throw new ArgumentException("faktoriál nelze počítat ze záporného čísla");
+            int faktorial = 1;
+            while (n > 0)
+            {
+                faktorial *= n;
 
+                --n;
+            }
+            return faktorial;
+        }
 
     }
 }

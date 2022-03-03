@@ -25,5 +25,11 @@ namespace Metody4_8_GitHub
             double mocnina = CeleCisla.mocnina(a, b);
             MessageBox.Show("mocnina dvou cisel je: " + mocnina);
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int faktorial = CeleCisla.faktorial(8);
+            MessageBox.Show("faktorial je: " + faktorial);
+
+        }
     }
 }
