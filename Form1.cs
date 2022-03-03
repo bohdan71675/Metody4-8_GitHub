@@ -43,6 +43,13 @@ namespace Metody4_8_GitHub
             else MessageBox.Show("neni prvocislo");
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int x = 4;
+
+            int pocetDelitelu = CeleCisla.PocetDeliteluSud(x);
+            MessageBox.Show("pocet sud delitelu je: " + pocetDelitelu);
+        }
 
     }
 }
