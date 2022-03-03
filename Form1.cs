@@ -25,6 +25,31 @@ namespace Metody4_8_GitHub
             double mocnina = CeleCisla.mocnina(a, b);
             MessageBox.Show("mocnina dvou cisel je: " + mocnina);
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int faktorial = CeleCisla.faktorial(8);
+            MessageBox.Show("faktorial je: " + faktorial);
+
+        }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int soucetLich = CeleCisla.CifLichSoucet(7584);
+            MessageBox.Show("soucet lich cifer je: " + soucetLich);
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int n = 4;
+            if (CeleCisla.jePrvocislo(n)) MessageBox.Show("je prvocislo");
+            else MessageBox.Show("neni prvocislo");
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int x = 4;
+
+            int pocetDelitelu = CeleCisla.PocetDeliteluSud(x);
+            MessageBox.Show("pocet sud delitelu je: " + pocetDelitelu);
+        }
 
     }
 }
