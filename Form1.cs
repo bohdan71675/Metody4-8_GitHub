@@ -36,6 +36,12 @@ namespace Metody4_8_GitHub
             int soucetLich = CeleCisla.CifLichSoucet(7584);
             MessageBox.Show("soucet lich cifer je: " + soucetLich);
         }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int n = 4;
+            if (CeleCisla.jePrvocislo(n)) MessageBox.Show("je prvocislo");
+            else MessageBox.Show("neni prvocislo");
+        }
 
 
     }
