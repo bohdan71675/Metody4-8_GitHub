@@ -45,7 +45,7 @@ namespace Metody4_8_GitHub
 
         private void button5_Click(object sender, EventArgs e)
         {
-            int x = 4;
+            int x = 5;
 
             int pocetDelitelu = CeleCisla.PocetDeliteluSud(x);
             MessageBox.Show("pocet sud delitelu je: " + pocetDelitelu);
