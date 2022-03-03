@@ -31,5 +31,12 @@ namespace Metody4_8_GitHub
             MessageBox.Show("faktorial je: " + faktorial);
 
         }
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int soucetLich = CeleCisla.CifLichSoucet(7584);
+            MessageBox.Show("soucet lich cifer je: " + soucetLich);
+        }
+
+
     }
 }

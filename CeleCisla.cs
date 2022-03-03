@@ -42,5 +42,25 @@ namespace Metody4_8_GitHub
             return faktorial;
         }
 
+        public static int CifLichSoucet(int n)
+        {
+            int cifSoucet = 0;
+            int sl = 0;
+            int PL = 0;
+            while (n > 0)
+            {
+
+                if (n % 2 != 0)
+                {
+                    cifSoucet += n % 10;
+                    sl += n;
+                    ++PL;
+                }
+                n = n / 10;
+            }
+            return cifSoucet;
+        }
+
+
     }
 }
